@@ -1,0 +1,6 @@
+# Include native sources and headers needed for source builds
+global-include *.h
+global-include *.inl
+
+# Getting the Cereal header-only library
+recursive-include lib/third_party/cereal/include *.h *.hpp
