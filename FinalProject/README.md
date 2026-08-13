@@ -14,10 +14,10 @@ from the parent folder FinalProject, cd into build.
 
 Then use the following commands:
 
-rm -rf *
-cmake ..
-cmake --build .
-./benchmark_native
+* rm -rf *
+* cmake ..
+* cmake --build .
+* ./benchmark_native
 
 The benchmark file was originally intended to use the tick library itself; instead, to simplify the downloading and testing of the file, the file was made to be self-contained so that it does not depend on the tick library.
 
