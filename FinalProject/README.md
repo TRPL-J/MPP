@@ -6,8 +6,8 @@
 from the parent folder:
 you can run ./benchmark_cuda to run the executable file of the benchmark_cuda.cu file.
 
-for the experiment, I used the following command to produce the executable file "benchmark_cuda"
-nvcc -O3 -arch=sm_70 benchmark_cuda.cu -o benchmark_cuda
+for the experiment, I used the following command to produce the executable file "benchmark_cuda":
+* nvcc -O3 -arch=sm_70 benchmark_cuda.cu -o benchmark_cuda
 
 ### For the CPU baseline
 from the parent folder FinalProject, cd into build.
